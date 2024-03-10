@@ -77,7 +77,7 @@ while True:
                tracking_objects[track_id] = pt
                track_id += 1
                #Take screenshot
-               cv2.imwrite("Resources/ToolDetection/ToolDetection_" + str(track_id) + ".jpg", img)
+               cv2.imwrite("Resources/ToolsDetection/ToolDetection_" + str(track_id) + ".jpg", img)
 
         #Write an object Id
        for object_id, pt in tracking_objects.items():
